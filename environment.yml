@@ -1,0 +1,29 @@
+name: cellpose
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python<=3.7
+  - pip
+  - mkl=2019.3
+  - numpy
+  - scikit-image
+  - numba>=0.43.1
+  - pyqt
+  - scipy
+  - matplotlib
+  - seaborn
+  - jupyter
+  - ipykernel
+  - altair
+  - napari
+  - pip:
+    - cellpose
+    - mxnet-mkl
+    - opencv_python
+    - pyqtgraph
+    - natsort
+    - google-cloud-storage
+    - tqdm
+    - loguru
+    - git+https://github.com/dezeraecox/GEN_Utils
